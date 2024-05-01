@@ -46,5 +46,3 @@ graphic <- ggplot(summary_data, aes(x = Quality_Metric, y = mean_value, color = 
   labs(caption = "***The quality of descriptions tends to improve towards '0' as the average value for the relevant metric decreases.")
 
 # Grafik incelendiğinde NICE metodunun en kaliteli açıklamaları oluşturduğu tüm modeller için tutarlı bir biçimde gözlemlenmektedir.
-
-ggsave("quality_metrics.png", plot = graphic, width = 8, height = 6, dpi = 300)
